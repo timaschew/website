@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>io.js - JavaScript I/O</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="io.js is an npm compatible platform originally based on node.js"><meta name="keywords" content="iojs, io.js, io js, javascript io, uv, libuv, node-forward, node forward, node, node.js, node.js forward, nodejs, nodejs forward, javascript"><link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"><link href="/website/main.css" rel="stylesheet"><link href="/website/mobile.css" rel="stylesheet"><link href="/website/blog.css" rel="stylesheet"><link rel="icon" href="/images/1.0.0.ico" type="image/x-icon"><link rel="apple-touch-icon" href="/images/apple-touch-icon-1.0.0.png"><meta property="og:image" content="https://iojs.org/images/1.0.0.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1369"><meta property="og:image:height" content="1563"></head><body markdown-page="2015-02-13_io-js-week-of-february-13th-2015"><header><div class="content"><a href="/website/en/index.html" class="logo">io.js</a><div class="spacer"></div><a href="/website/en/blog/">Blog</a><a href="/website/en/faq.html">FAQ</a><a href="/website/en/es6.html">ES6</a><a href="https://iojs.org/api/">API Docs</a></div></header><div class="content clearfix main-content"><h3>io.js Week of February 13th 2015</h3>
+<p>29 language localization effort, 1.2.0 release, and much more.</p>
+<h3>io.js support added by…</h3>
+<ul>
+<li><a href="http://blog.postmarkapp.com/post/110829734198/its-official-were-getting-cozy-with-node-js">Postmark</a></li>
+<li><a href="https://github.com/voodootikigod/node-serialport/issues/439">node-serialport</a></li>
+<li><a href="http://azure.microsoft.com/en-us/documentation/articles/web-sites-nodejs-iojs/">Microsoft Azure</a></li>
+</ul>
+<h3>io.js breaks 10,000 stars on GitHub</h3>
+<p>On Feb. 13, io.js reached the goal of 10,000 stars on GitHub. We couldn’t have done it without the support of the amazing community behind JavaScript. Thank you alll!</p>
+<h3>io.js 1.2.0 released</h3>
+<ul>
+<li><strong>stream</strong>: <a href="https://github.com/iojs/readable-stream/issues/102">Simpler stream construction</a>.</li>
+<li><strong>dns</strong>: <a href="https://github.com/iojs/io.js/pull/744">lookup() now supports an ‘all’ boolean option, default to false but when turned on will cause the method to return an array of all resolved names for an address</a>.</li>
+<li><strong>assert</strong>: Remove prototype property <a href="https://github.com/iojs/io.js/pull/636">comparison in deepEqual()</a> introduced a deepStrictEqual() method to <a href="https://github.com/iojs/io.js/pull/639">mirror deepEqual()</a> but performs strict equality checks on primitives.</li>
+<li><strong>tracing</strong>: <a href="https://github.com/iojs/io.js/pull/702">Add LTTng (Linux Trace Toolkit Next Generation) when compiled with the —with-lttng option. Trace points match those available for DTrace and ETW</a>.</li>
+<li><strong>docs</strong>: Lots of doc updates, see individual commits; <a href="https://iojs.org/api/errors.html">new Errors page</a> discussing JavaScript errors, V8 specifics, and io.js specific error details.</li>
+<li>**npm **upgrade to 2.5.1</li>
+<li>**libuv **upgrade to 1.4.0, see libuv <a href="https://github.com/libuv/libuv/blob/v1.x/ChangeLog">ChangeLog</a></li>
+<li>Add new collaborators: Aleksey Smolenchuk (<a href="https://github.com/lxe">@lxe</a>) and Shigeki Ohtsu (<a href="https://github.com/shigeki">@shigeki</a>)</li>
+</ul>
+<h3>Opened our doors to the international community</h3>
+<p>View the <a href="https://medium.com/@mikeal/how-io-js-built-a-146-person-27-language-localization-effort-in-one-day-65e5b1c49a62">original article</a> on Medium.</p>
+<ul>
+<li>Added interested contributors to teams for their language.</li>
+<li>Teams registered Twitter accounts for their teams and other relevant social media accounts.</li>
+<li>Teams came up with their own ways of working together, and they became more of “community organizers,” as opposed to just “translators”</li>
+</ul>
+<h4>Stats for Localizations</h4>
+<ul>
+<li>146 people signed up to help with the localizations the first day (over 160 signed up now)</li>
+<li>27 languages communities created the first day (already up to 29)</li>
+</ul>
+<h4>Language Communities</h4>
+<ul>
+<li><a href="https://github.com/iojs/iojs-bn">iojs-bn</a> Bengali Community</li>
+<li><a href="https://github.com/iojs/iojs-cn">iojs-cn</a> Chinese Community</li>
+<li><a href="https://github.com/iojs/iojs-cs">iojs-cs</a> Czech Community</li>
+<li><a href="https://github.com/iojs/iojs-da">iojs-da</a> Danish Community</li>
+<li><a href="https://github.com/iojs/iojs-de">iojs-de</a> German Community</li>
+<li><a href="https://github.com/iojs/iojs-el">iojs-el</a> Greek Community</li>
+<li><a href="https://github.com/iojs/iojs-es">iojs-es</a> Spanish Community</li>
+<li><a href="https://github.com/iojs/iojs-fa">iojs-fa</a> Persian Community</li>
+<li><a href="https://github.com/iojs/iojs-fi">iojs-fi</a> Finnish Community</li>
+<li><a href="https://github.com/iojs/iojs-fr">iojs-fr</a> French Community</li>
+<li><a href="https://github.com/iojs/iojs-he">iojs-he</a> Hebrew Community</li>
+<li><a href="https://github.com/iojs/iojs-hi">iojs-hi</a> Hindi Community</li>
+<li><a href="https://github.com/iojs/iojs-hu">iojs-hu</a> Hungarian Community</li>
+<li><a href="https://github.com/iojs/iojs-id">iojs-id</a> Indonesian Community</li>
+<li><a href="https://github.com/iojs/iojs-it">iojs-it</a> Italian Community</li>
+<li><a href="https://github.com/iojs/iojs-ja">iojs-ja</a> Japanese Community</li>
+<li><a href="https://github.com/iojs/iojs-ka">iojs-ka</a> Georgian Community</li>
+<li><a href="https://github.com/iojs/iojs-kr">iojs-kr</a> Korean Community</li>
+<li><a href="https://github.com/iojs/iojs-mk">iojs-mk</a> Macedonian Community</li>
+<li><a href="https://github.com/iojs/iojs-nl">iojs-nl</a> Dutch Community</li>
+<li><a href="https://github.com/iojs/iojs-no">iojs-no</a> Norwegian Community</li>
+<li><a href="https://github.com/iojs/iojs-pl">iojs-pl</a> Polish Community</li>
+<li><a href="https://github.com/iojs/iojs-pt">iojs-pt</a> Portuguese Community</li>
+<li><a href="https://github.com/iojs/iojs-ro">iojs-ro</a> Romanian Community</li>
+<li><a href="https://github.com/iojs/iojs-ru">iojs-ru</a> Russian Community</li>
+<li><a href="https://github.com/iojs/iojs-sv">iojs-sv</a> Swedish Community</li>
+<li><a href="https://github.com/iojs/iojs-tr">iojs-tr</a> Turkish Community</li>
+<li><a href="https://github.com/iojs/iojs-tw">iojs-tw</a> Taiwan Community</li>
+<li><a href="https://github.com/iojs/iojs-uk">iojs-uk</a> Ukranian Community</li>
+</ul>
+<h3>io.js and node.js</h3>
+<p>View the <a href="https://medium.com/@iojs/io-js-and-a-node-js-foundation-4e14699fb7be">original article</a> on Medium.</p>
+<ul>
+<li>Scott Hammond, CEO of Joyent, expressed his desire to bring io.js back to the node.js.</li>
+</ul>
+<h4>In only a few months io.js…</h4>
+<ul>
+<li>Has grown to 23 active core team members</li>
+<li>Has several working groups</li>
+<li>Has 29 language localization teams,</li>
+<li>Has drawn more contributors to the project than we’ve ever had in the history of node.js, and</li>
+<li>Has been able to release quality software at a good pace with the support of an exceptional community.&gt; We are eager to put this all behind us but we can’t sacrifice the progress we’ve made or the principles and open governance that got us here.</li>
+</ul>
+<h4>The Future</h4>
+<ul>
+<li>Talks with the node.js foundation are ongoing.</li>
+<li>Once the foundation has a technical governance model you will see an issue on io.js’ GitHub about whether io.js should join. This will be discussed and voted on openly in a public TC meeting following the governance rules we’ve already built.&gt; For the community, nothing has changed.</li>
+</ul>
+<h4>What you can do right now</h4>
+<ul>
+<li>Continue to send your pull requests to io.js</li>
+<li>Join one of the 27 <a href="https://github.com/iojs/website/issues/125">language localization teams</a></li>
+<li>Contribute to io.js’ working groups (<a href="https://github.com/iojs/readable-stream">streams</a>, <a href="https://github.com/iojs/website">website</a>, <a href="https://github.com/iojs/website/labels/evangelism">evangelism</a>, <a href="https://github.com/iojs/tracing-wg">tracing</a>, <a href="https://github.com/iojs/build">build</a>, <a href="https://github.com/iojs/roadmap">roadmap</a>) and</li>
+<li>Continue to adopt io.js in your applications.</li>
+</ul>
+</div><footer class="content"><nav><a href="https://github.com/iojs/io.js/issues">GitHub Issues</a><a href="https://github.com/iojs">GitHub Org</a><a href="https://webchat.freenode.net/?channels=io.js">IRC Chat</a><a href="http://logs.libuv.org/io.js/latest">Logs</a><a href="https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme">Governance</a></nav></footer></body><!-- See something you like? Want to help? Visit https://github.com/iojs/website to contribute--></html>
